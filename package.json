@@ -4,7 +4,7 @@
   "description": "Homebridge Hisense TV",
   "author": "Stoner221",
   "dependencies": {
-    "hisense-remote": "^0.0.1"
+    "hisense-remote": "^0.0.4"
   },
   "license": "ISC",
   "keywords": [

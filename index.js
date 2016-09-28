@@ -49,9 +49,10 @@ hisenseTvAcc.prototype._getOn = function(callback) {
     var accessory = this;
     this.remote.isAlive(function(err) {
         if (err) {
+             accessory.log('TV is offline!');
              callback(null, false);
         } else {
-            accessory.log.debug('TV is On!');
+            accessory.log('TV is On!');
             callback(null, true);
         }
     });

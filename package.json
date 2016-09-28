@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/stoner221/homebridge-hisense"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/stoner221/homebridge-hisense"
   },
   "engines": {
     "node": ">=0.12.0",
